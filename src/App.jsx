@@ -43,7 +43,7 @@ const App = () => {
 				// 	quotes: res
 				// }, this.getRandomIndex);
 		});
-  }, [index]);
+  }, []);
 
   return (
     <div id='random-quote-machine' style={{backgroundColor: pastel}}>
