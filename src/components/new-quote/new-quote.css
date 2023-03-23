@@ -1,28 +1,9 @@
 /*========== GENERAL DESKTOP ===========*/
 
-#random-quote-machine {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#new-quote {
+    cursor: pointer;
 }
-
-#wrapper {
-  width: 80vh;
-  height: 20vw;
-  background-color: white;
-  border-radius: 1rem;
-}
-
-#buttons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
+  
 /*----------------- MEDIA QUERIES ------------------*/
 
 /*========== BIG NOTEBOOKS ===========*/
@@ -45,7 +26,7 @@
 /*========== BIG TABLETS ===========*/
 @media screen and (max-width: 1400px) and (orientation: portrait) {
 
- 
+
 
 }
 
