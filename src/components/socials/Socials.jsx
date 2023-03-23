@@ -10,10 +10,10 @@ const Socials = ({pastel, quote}) => {
 
   return (
     <div id='socials'>
-      <a href={tweetURL} target='_blank' rel='noreferrer' id="tweet-quote" style={{backgroundColor: pastel}}>
+      <a className='social-btn' href={tweetURL} target='_blank' rel='noreferrer' id="tweet-quote" style={{backgroundColor: pastel}}>
         <TfiTwitterAlt />
       </a>
-      <a href={linkedInURL} target='_blank' rel='noreferrer' id="linkedIn-quote" style={{backgroundColor: pastel}}>
+      <a className='social-btn' href={linkedInURL} target='_blank' rel='noreferrer' id="linkedIn-quote" style={{backgroundColor: pastel}}>
         <TfiLinkedin />
       </a>
     </div>

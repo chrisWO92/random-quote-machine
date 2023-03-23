@@ -3,6 +3,13 @@
 #new-quote {
     cursor: pointer;
 }
+
+.new-quote-btn {
+    color: white;
+    font-size: 2vh;
+    padding: 1.4vh 1.8vh;
+    border-radius: 0.5rem;
+}
   
 /*----------------- MEDIA QUERIES ------------------*/
 

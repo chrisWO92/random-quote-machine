@@ -1,13 +1,27 @@
 /*========== GENERAL DESKTOP ===========*/
 
+#quote-box {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw;
+    font-size: 1.6vw;
+    gap: 3vh;
+}
+
 #quote-wrapper {
     display: flex;
+    width: 100%;
+    padding-left: 2vw;
 }
  
 #author {
     display: flex;
     width: 100%;
     justify-content: flex-end;
+    font-size: 1.2vw;
 }
   
 /*----------------- MEDIA QUERIES ------------------*/

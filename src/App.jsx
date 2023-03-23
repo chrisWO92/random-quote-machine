@@ -3,6 +3,7 @@ import './App.css';
 import NewQuote from './components/new-quote/NewQuote';
 import QuoteBox from './components/quote-box/QuoteBox';
 import Socials from './components/socials/Socials';
+import {FaQuoteLeft} from 'react-icons/fa'
 
 const API = 'https://type.fit/api/quotes';
 
@@ -16,7 +17,7 @@ const App = () => {
   const [hsl, setHsl] = useState(358);
 
   const quote = quotes[index];
-  const pastel = 'hsl(' + hsl + ', 100%, 80%)';
+  const pastel = 'hsl(' + hsl + ', 15%, 50%)';
 
   const getRandomIndex = () => {
     if(quotes.length > 0) {
@@ -48,6 +49,7 @@ const App = () => {
   return (
     <div id='random-quote-machine' style={{backgroundColor: pastel}}>
       <div id="wrapper">
+      <FaQuoteLeft id='quote-icon' style={{color: pastel}}/>
         {
           quote && (<QuoteBox pastel={pastel} quote={quote} />)
         }
