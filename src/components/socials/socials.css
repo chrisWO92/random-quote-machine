@@ -49,6 +49,9 @@
 /*========== SMARTPHONES ===========*/
 @media screen and (max-width: 420px) and (orientation: portrait) {
 
-
+    .social-btn {
+        font-size: 2.2vh;
+        padding: 1.4vh 1.8vh;
+    }
 
 }

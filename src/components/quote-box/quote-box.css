@@ -7,7 +7,6 @@
     justify-content: center;
     align-items: center;
     padding: 2vw;
-    font-size: 1.6vw;
     gap: 3vh;
 }
 
@@ -15,6 +14,7 @@
     display: flex;
     width: 100%;
     padding-left: 2vw;
+    font-size: 1.6vw;
 }
  
 #author {
@@ -46,7 +46,14 @@
 /*========== BIG TABLETS ===========*/
 @media screen and (max-width: 1400px) and (orientation: portrait) {
 
-
+    #quote-wrapper {
+        padding-left: 6vw;
+        font-size: 3vw;
+    }
+     
+    #author {
+        font-size: 2.4vw;
+    }
 
 }
 
@@ -60,6 +67,13 @@
 /*========== SMARTPHONES ===========*/
 @media screen and (max-width: 420px) and (orientation: portrait) {
 
-
+    #quote-wrapper {
+        padding-left: 9vw;
+        font-size: 3.3vw;
+    }
+     
+    #author {
+        font-size: 2.9vw;
+    }
 
 }

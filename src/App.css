@@ -55,7 +55,17 @@
 /*========== BIG TABLETS ===========*/
 @media screen and (max-width: 1400px) and (orientation: portrait) {
 
- 
+  #wrapper {
+    width: 74%;
+    height: 50%;
+    padding: 4vh 6vw 3vh;
+  }
+
+  #quote-icon {
+    font-size: 4vh;
+    position: relative;
+    top: 8vh;
+  }
 
 }
 
@@ -69,6 +79,15 @@
 /*========== SMARTPHONES ===========*/
 @media screen and (max-width: 420px) and (orientation: portrait) {
 
+  #wrapper {
+    width: 85%;
+    height: 50%;
+    padding: 4vh 7vw 3vh;
+  }
 
+  #quote-icon {
+    font-size: 4vh;
+    top: 8.7vh;
+  }
 
 }

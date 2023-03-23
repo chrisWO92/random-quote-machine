@@ -6,8 +6,8 @@
 
 .new-quote-btn {
     color: white;
-    font-size: 2vh;
-    padding: 1.4vh 1.8vh;
+    font-size: 2.2vh;
+    padding: 1.5vh 2vh;
     border-radius: 0.5rem;
 }
   
@@ -33,7 +33,11 @@
 /*========== BIG TABLETS ===========*/
 @media screen and (max-width: 1400px) and (orientation: portrait) {
 
-
+    .new-quote-btn {
+        font-size: 2.2vh;
+        padding: 1.7vh 2vh;
+        border-radius: 0.5rem;
+    }
 
 }
 
@@ -47,6 +51,10 @@
 /*========== SMARTPHONES ===========*/
 @media screen and (max-width: 420px) and (orientation: portrait) {
 
-
+    .new-quote-btn {
+        font-size: 2vh;
+        padding: 1.7vh 2vh;
+        border-radius: 0.5rem;
+    }
 
 }
